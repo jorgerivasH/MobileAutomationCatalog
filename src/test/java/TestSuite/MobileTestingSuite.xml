@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MobileTestingSuite" verbose="1">
+    <test name="Test_1">
+        <classes>
+            <class name="MobileTesting.TestCatalog">
+                <methods>
+                    <include name="verifyIntSem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test_2">
+        <classes>
+            <class name="MobileTesting.TestCatalog">
+                <methods>
+                    <include name="verifyTheme"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test_3">
+        <classes>
+            <class name="MobileTesting.TestCatalog">
+                <methods>
+                    <include name="verifyContactList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
